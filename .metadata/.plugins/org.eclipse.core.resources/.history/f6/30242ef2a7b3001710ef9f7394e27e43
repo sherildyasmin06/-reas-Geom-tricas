@@ -1,0 +1,34 @@
+package com.aplica01operaciones;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.widget.Button;
+import android.widget.EditText;
+
+public class Trapecio extends Activity {
+	
+	EditText txtbmenor, txtbmayor, txtaltura, txtarea;
+	Button btnnuevo, btncalcular, btnsalir;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_trapecio);
+		txtbmenor = (EditText)findViewById(R.id.tbmenor);
+		txtbmayor = (EditText)findViewById(R.id.tbmayor);
+		txtaltura = (EditText)findViewById(R.id.taltura);
+		txtarea = (EditText)findViewById(R.id.tareatrapecio);
+		btnnuevo = (Button)findViewById(R.id.bnuevo);
+		btncalcular = (Button)findViewById(R.id.bcalcular);
+		btnsalir = (Button)findViewById(R.id.bsalir);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.trapecio, menu);
+		return true;
+	}
+
+}

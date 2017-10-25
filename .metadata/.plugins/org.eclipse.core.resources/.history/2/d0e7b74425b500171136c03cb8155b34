@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PRINCIPAL</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_factorial">Factorial de un Numero</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nfactorial">INGRESE NUMERO</string>
+    <string name="nresultado">EL FACTORIAL ES:</string>
+    <string name="bnuevo">NUEVO</string>
+    <string name="bcalcular">CALCULAR</string>
+    <string name="bsalir">SALIR</string>
+    <string name="title_activity_trapecio">Area Del Trapecio</string>
+    <string name="bmenor">BASE MENOR:</string>
+    <string name="bmayor">BASE MAYOR:</string>
+    <string name="baltura">ALTURA:</string>
+    <string name="bareatrap">EL AREA ES:</string>
+    <string name="title_activity_promedio">Promedio De Notas</string>
+    <string name="pcurso">CURSO:</string>
+    <string name="tnota1">NOTA 1:</string>
+    <string name="tnota2">NOTA 2:</string>
+    <string name="tnota3">NOTA 3:</string>
+    <string name="tpromedio">"PROMEDIO: "</string>
+    <string name="tobservacion">OBSERVACION:</string>
+    <string name="title_activity_triangulo">Area del Triangulo</string>
+
+</resources>
